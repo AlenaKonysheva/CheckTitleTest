@@ -27,9 +27,9 @@ public class SampleTest {
         checkTitle();
     }
 
-    /*проверка title*/
+
     public void checkTitle() {
-        /*driver.navigate().to("https://otus.ru/");*/
+        //driver.navigate().to("https://otus.ru/");
         String actualTitle = driver.getTitle();
         String expectedTitle = "Онлайн‑курсы для профессионалов, дистанционное обучение современным профессиям";
         Assert.assertEquals(actualTitle, expectedTitle);
